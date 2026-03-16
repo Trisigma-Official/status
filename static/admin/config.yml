@@ -1,0 +1,41 @@
+local_backend: true
+
+backend:
+  name: github
+  repo: Trisigma-Official/status
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: issues
+    label: Issues
+    label_singular: Issue
+    folder: content/issues
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime }
+      - { label: Resolved, name: resolved, widget: boolean, default: false }
+      - label: Resolved At
+        name: resolvedWhen
+        widget: datetime
+        required: false
+      - label: Severity
+        name: severity
+        widget: select
+        options:
+          - notice
+          - disrupted
+          - down
+          - monitoring
+      - label: Affected Systems
+        name: affected
+        widget: list
+      - label: Section
+        name: section
+        widget: hidden
+        default: issue
+      - { label: Body, name: body, widget: markdown }
