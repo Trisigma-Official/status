@@ -37,14 +37,14 @@ collections:
         widget: select
         multiple: true
         options:
-          - Splitter
-          - Configurator
-          - Compute
-          - API estimate
-          - API console
-          - Web UI
-          - /api/v1/config.json
-          - /api/v1/geo
+          - { label: "[Enterprise] Splitter", value: "Splitter" }
+          - { label: "[Enterprise] Configurator", value: "Configurator" }
+          - { label: "[Enterprise] Compute", value: "Compute" }
+          - { label: "[Essential] API estimate", value: "API estimate" }
+          - { label: "[Essential] API console", value: "API console" }
+          - { label: "[Essential] Web UI", value: "Web UI" }
+          - { label: "[Essential] /api/v1/config.json", value: "/api/v1/config.json" }
+          - { label: "[Essential] /api/v1/geo", value: "/api/v1/geo" }
       - label: Section
         name: section
         widget: hidden
