@@ -4,6 +4,7 @@ backend:
   name: github
   repo: Trisigma-Official/status
   branch: main
+  base_url: https://auth-status.trisigma.io
 
 media_folder: static/img
 public_folder: /img
