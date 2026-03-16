@@ -5,7 +5,7 @@ resolved: true
 resolvedWhen: 2026-03-15T11:30:00.000Z
 severity: down
 affected:
-  - API
+  - Splitter
 section: issue
 ---
 

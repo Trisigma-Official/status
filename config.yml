@@ -8,21 +8,22 @@ enableGitInfo: false
 
 params:
   categories:
-    - name: Infrastructure
-      description: Core infrastructure services.
-    - name: Applications
-      description: User-facing applications.
+    - name: Trisigma
+    - name: Sigma
 
   systems:
-    - name: API
-      description: Main API service.
-      category: Infrastructure
-    - name: Website
-      description: Public website.
-      category: Applications
-    - name: Database
-      description: Primary database cluster.
-      category: Infrastructure
+    - name: Splitter
+      description: Traffic splitting service.
+      category: Trisigma
+    - name: Configurator
+      description: Experiment configuration service.
+      category: Trisigma
+    - name: Compute
+      description: Computation and processing service.
+      category: Trisigma
+    - name: Estimate
+      description: Estimation service.
+      category: Sigma
 
   enableUptimeHistogram: true
   monitorBot: false

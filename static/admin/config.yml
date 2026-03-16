@@ -33,7 +33,13 @@ collections:
           - monitoring
       - label: Affected Systems
         name: affected
-        widget: list
+        widget: select
+        multiple: true
+        options:
+          - Splitter
+          - Configurator
+          - Compute
+          - Estimate
       - label: Section
         name: section
         widget: hidden
