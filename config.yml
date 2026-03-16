@@ -8,22 +8,22 @@ enableGitInfo: false
 
 params:
   categories:
-    - name: Trisigma
-    - name: Sigma
+    - name: Trisigma Enterprise
+    - name: Trisigma Essential
 
   systems:
     - name: Splitter
       description: Traffic splitting service.
-      category: Trisigma
+      category: Trisigma Enterprise
     - name: Configurator
       description: Experiment configuration service.
-      category: Trisigma
+      category: Trisigma Enterprise
     - name: Compute
       description: Computation and processing service.
-      category: Trisigma
+      category: Trisigma Enterprise
     - name: Estimate
       description: Estimation service.
-      category: Sigma
+      category: Trisigma Essential
 
   enableUptimeHistogram: true
   monitorBot: false
