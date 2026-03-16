@@ -21,8 +21,15 @@ params:
     - name: Compute
       description: Computation and processing service.
       category: Trisigma Enterprise
-    - name: Estimate
-      description: Estimation service.
+    - name: API estimate
+      category: Trisigma Essential
+    - name: API console
+      category: Trisigma Essential
+    - name: Web UI
+      category: Trisigma Essential
+    - name: /api/v1/config.json
+      category: Trisigma Essential
+    - name: /api/v1/geo
       category: Trisigma Essential
 
   enableUptimeHistogram: true

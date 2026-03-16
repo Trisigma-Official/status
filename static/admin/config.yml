@@ -39,7 +39,11 @@ collections:
           - Splitter
           - Configurator
           - Compute
-          - Estimate
+          - API estimate
+          - API console
+          - Web UI
+          - /api/v1/config.json
+          - /api/v1/geo
       - label: Section
         name: section
         widget: hidden
